@@ -16,7 +16,6 @@ cask install flux
 cask install github
 cask install google-chrome
 cask install google-drive
-cask install hex-fiend
 cask install iterm2
 cask install league-of-legends
 cask install mactex
