@@ -3,101 +3,102 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install appcleaner
-cask install aquaterm
-cask install bettertouchtool
-cask install coteditor
-cask install dropbox
-cask install evernote
-cask install firefox
-cask install flip4mac
-cask install flux
-cask install github
-cask install google-chrome
-cask install google-drive
-cask install iterm2
-cask install league-of-legends
-cask install mactex
-cask install maczip4win
-cask install magican
-cask install mendeley-desktop
-cask install minecraft
-cask install nosleep
-cask install quicksilver
-cask install skype
-cask install soundflower
-cask install steam
-cask install texshop
-cask install thunderbird
-cask install xquartz
-cask install xtrafinder
+brew brew-cask
+cask appcleaner
+cask aquaterm
+cask bettertouchtool
+cask cooviewer
+cask coteditor
+cask dropbox
+cask evernote
+cask flip4mac
+cask flux
+cask gfxcardstatus
+cask gimp
+cask github
+cask google-chrome
+cask google-drive
+cask inkscape
+cask iterm2
+cask karabiner
+cask league-of-legends
+cask mactex
+cask maczip4win
+cask magican
+cask mendeley-desktop
+cask minecraft
+cask nosleep
+cask quicksilver
+cask skim
+cask skype
+cask soundflower
+cask stackroom
+cask steam
+cask texshop
+cask thunderbird
+cask xquartz
+cask xtrafinder
 
 ## homebrew/binary
 tap homebrew/binary
 
 ## homebrew/dupes
 tap homebrew/dupes
-install gdb
+brew gdb
 
 ## homebrew/versions
 tap homebrew/versions
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 # Other Homebrew packages
-install cloog
-install coreutils
-install ffmpeg
-install freetype
-install gcc
-install gdbm
-install ghostscript
-install git
-install gmp
-install imagemagick
-install isl
-install jbig2dec
-install jpeg
-install lame
-install libmpc
-install libpng
-install libtiff
-install libtool
-install libvo-aacenc
-install little-cms2
-install lv
-install mpfr
-install nkf
-install openssl
-install pcre
-install pkg-config
-install python3
-install readline
-install sqlite
-install valgrind
-install x264
-install xvid
-install xz
-install youtube-dl
-install zsh
-install zsh-completions
-
-# Below applications were installed by Cask,
-# but don't not have corresponding casks.
-
-#cask  install amazon-cloud-player (!)
-#cask  install macvim-kaoriya (!)
-#cask  install mjograph (!)
-#cask  install mutecon (!)
+brew cloog
+brew coreutils
+brew ctags
+brew ffmpeg
+brew fontconfig
+brew freetype
+brew gcc
+brew gd
+brew gdbm
+brew git
+brew gmp
+brew gnuplot --with-aquaterm --with-latex --with-qt --without-emacs
+brew imagemagick
+brew isl
+brew jbig2dec
+brew jpeg
+brew lame
+brew libmpc
+brew libpng
+brew libtiff
+brew libtool
+brew libvo-aacenc
+brew little-cms2
+brew lua
+brew lv
+brew mpfr
+brew nkf
+brew openssl
+brew pcre
+brew pkg-config
+brew python3
+brew qt
+brew readline
+brew sqlite
+brew x264
+brew xvid
+brew xz
+brew zsh
+brew zsh-completions
 
 # App Store applications
 appstore 1Password
 appstore Awaken
+appstore Battery Health
 appstore Boom
-appstore Delay Start
 appstore GarageBand
 appstore Growl
 appstore iMovie
@@ -107,9 +108,10 @@ appstore LINE
 appstore Numbers
 appstore Pages
 appstore Pocket
+appstore Reditr
+appstore Reeder
 appstore Relax Melodies
 appstore Skitch
-appstore SwiftCalc
 appstore The Unarchiver
 appstore Tweetbot
 appstore VirtualDJ Home
